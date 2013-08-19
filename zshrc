@@ -2,6 +2,7 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin
 HISTFILE=~/.zshrc_history
 SAVEHIST=5000
 HISTSIZE=5000
+# Affiche toujours le chemin avant le nom de la machine dans le shell
 export PS1='%n@%m %~/ '
 export TERM=xterm-256color
 
@@ -22,5 +23,6 @@ alias gita="git add -A"
 alias gitc="git commit -m"
 alias gitp="git push origin master"
 alias gitl="git pull origin master"
+# ignore les fichier dans les dossiers .git et .svn
 alias gcco="gcc -Werror -Wstrict-prototypes -Wmissing-prototypes -Wall -ansi -pedantic -o"
 alias lf="find . \( -name \.git -o -name \.svn -o -name \.hg \) -prune -o -exec ls -G -d {} \;"
