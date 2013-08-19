@@ -23,6 +23,7 @@ alias gita="git add -A"
 alias gitc="git commit -m"
 alias gitp="git push origin master"
 alias gitl="git pull origin master"
+alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
 # ignore les fichier dans les dossiers .git et .svn
-alias gcco="gcc -Werror -Wstrict-prototypes -Wmissing-prototypes -Wall -ansi -pedantic -o"
+alias gcco="gcc -Werror -Wextra -Wall -o bin"
 alias lf="find . \( -name \.git -o -name \.svn -o -name \.hg \) -prune -o -exec ls -G -d {} \;"
