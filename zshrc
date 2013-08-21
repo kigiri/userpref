@@ -16,14 +16,16 @@ fi
 if [[ -f ~/.myzshrc ]]; then
   source ~/.myzshrc
 fi
-
+# rl = reload resave all
+alias rl="cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc && zip -r ~/gitmypref/mac_sublime_pref.zip ~/Library/Application\ Support/Sublime\ Text\ 3 ~/Library/Application\ Support/iTerm"
 alias ls="ls -GF"
 alias la="ls -laGF"
 alias gita="git add -A"
 alias gitc="git commit -m"
 alias gitp="git push origin master"
 alias gitl="git pull origin master"
-alias yolo='git commit -am "DEAL WITH IT" && git push -f origin master'
+alias yolo='git add -A && git commit -am "DEAL WITH IT" && git push -f origin master'
+alias swag='git add -A && git commit -am "YMCM" && git push -f origin master'
 # ignore les fichier dans les dossiers .git et .svn
 alias gcco="gcc -Werror -Wextra -Wall -o bin"
 alias lf="find . \( -name \.git -o -name \.svn -o -name \.hg \) -prune -o -exec ls -G -d {} \;"
