@@ -25,6 +25,7 @@ alias gitp="git pull origin master"
 alias yolo='git add -A && git commit -am "DEAL WITH IT" && git push -f origin master'
 alias swag='git add -A && git commit -am "YMCM" && git push -f origin master'
 # ignore les fichier dans les dossiers .git et .svn
-alias gcco="gcc -Werror -Wextra -Wall"
+alias gww="gcc -Werror -Wextra -Wall"
+alias moulinette="gcc -Werror -Wextra -Wall"
 alias lf="find . \( -name \.git -o -name \.svn -o -name \.hg \) -prune -o -exec ls -G -d {} \;"
 # Pour recharger vos pref faites "source ~/.zshrc"
