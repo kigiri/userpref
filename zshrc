@@ -17,10 +17,11 @@ if [[ -f ~/.myzshrc ]]; then
   source ~/.myzshrc
 fi
 # rl = reload resave all
+alias mypref="cd ~/gitmypref"
 alias rl="cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc && zip -r ~/gitmypref/mac_sublime_pref.zip ~/Library/Application\ Support/Sublime\ Text\ 3 ~/Library/Application\ Support/iTerm"
 alias ls="ls -GF"
 alias la="ls -laGF"
-alias pouet="open ~/Downloads/Sublime\ Text.app"
+alias pouet="open -a ~/Downloads/Sublime\ Text.app"
 alias c="clear"
 alias ..="cd .."
 alias  .2="cd ../../"
