@@ -6,7 +6,7 @@
 #    By: cdenis <cdenis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/08/28 17:15:14 by cdenis            #+#    #+#              #
-#    Updated: 2013/08/28 17:45:25 by cdenis           ###   ########.fr        #
+#    Updated: 2013/08/28 19:12:41 by cdenis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin
@@ -32,6 +32,7 @@ fi
 # rl = reload resave all
 alias mypref="cd ~/gitmypref"
 alias uid="sh ~/gitmypref/.phone.sh"
+alias massmail="sh ~/gitmypref/.mail_correction.sh"
 alias phone="sh ~/gitmypref/.phone.sh"
 alias rl="cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc && zip -r ~/gitmypref/mac_sublime_pref.zip ~/Library/Application\ Support/Sublime\ Text\ 3 ~/Library/Application\ Support/iTerm"
 alias ls="ls -GF"
@@ -47,7 +48,7 @@ alias ....="cd ../../../"
 alias    .4="cd ../../../../"
 alias    .5="cd ../../../../.."
 alias cd..="cd .."
-alias dolly="git clone"
+alias dolly="sh ~/gitmypref/.dolly.sh"
 alias gitp="git pull origin master"
 alias yolo='git add -A && git commit -am "DEAL WITH IT" && git push -f origin master'
 alias swag='git add -A && git commit -am "YMCM" && git push -f origin master'
