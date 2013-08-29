@@ -6,7 +6,7 @@
 #    By: cdenis <cdenis@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/08/28 17:15:14 by cdenis            #+#    #+#              #
-#    Updated: 2013/08/28 19:12:41 by cdenis           ###   ########.fr        #
+#    Updated: 2013/08/29 12:22:45 by cdenis           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin
@@ -37,7 +37,6 @@ alias phone="sh ~/gitmypref/.phone.sh"
 alias rl="cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc cp ~/.zshrc ~/gitmypref/zshrc && source ~/.zshrc && zip -r ~/gitmypref/mac_sublime_pref.zip ~/Library/Application\ Support/Sublime\ Text\ 3 ~/Library/Application\ Support/iTerm"
 alias ls="ls -GF"
 alias la="ls -laGF"
-alias pouet="open -a ~/Downloads/Sublime\ Text.app"
 alias sub="~/Downloads/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias c="clear"
 alias ..="cd .."
@@ -54,6 +53,5 @@ alias yolo='git add -A && git commit -am "DEAL WITH IT" && git push -f origin ma
 alias swag='git add -A && git commit -am "YMCM" && git push -f origin master'
 # ignore les fichier dans les dossiers .git et .svn
 alias gww="gcc -Werror -Wextra -Wall"
-alias moulinette="gcc -Werror -Wextra -Wall"
 alias lf="find . \( -name \.git -o -name \.svn -o -name \.hg \) -prune -o -exec ls -G -d {} \;"
 # Pour recharger vos pref faites "source ~/.zshrc"
